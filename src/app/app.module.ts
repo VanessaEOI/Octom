@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ImgLeftComponent } from './login-page/img-left/img-left.component';
 import { LoginBarComponent } from './login-page/login-bar/login-bar.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [AppComponent, LoginPageComponent, ImgLeftComponent, LoginBarComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    LoginPageComponent,
+    ImgLeftComponent,
+    LoginBarComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })

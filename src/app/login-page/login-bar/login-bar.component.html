@@ -1,1 +1,50 @@
-<p>login-bar works!</p>
+<section class="login-box">
+    <div class="header-logo">
+        <div class="img-logo">
+            <img src="./assets/images/octom-main-logo.png" alt="Logo Octom" class="logo">
+        </div>
+        <h1>Octom</h1>
+    </div>
+    <div class="login-bloc">
+        <h2>Nice to see you again</h2>
+        <form class="main-login-form">
+            <div class="login-box">
+                <label for="login" class="form-label">Login</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Email or phone number">
+            </div>
+            <div class="password-box">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+                <fa-icon [icon]="faEye"></fa-icon>
+            </div>
+            <div class="forgot-password-box">
+                <div class="login-checkbox">
+                    <label class="custom-checkbox" for="checkbox">
+                        <input type="checkbox">
+                        <i class="unchecked">
+                            <fa-icon [icon]="faToggleOff"></fa-icon>
+                        </i>
+                        <i class="checked">
+                            <fa-icon [icon]="faToggleOn"></fa-icon>
+                        </i>
+                        Remenber me
+                    </label>
+
+                </div>
+                <div class="forgot-password">
+                    <a href="">Forgot password?</a>
+                </div>
+            </div>
+            <div class="signin-buttons">
+                <button type="submit" class="signin-box">Sign in</button>
+                <span class="signin-separation"></span>
+                <button type="submit" class="Google-signin-box">
+                    <img src=".\assets\images\logo-google.png" alt="Logo Google">
+                    <p>Or sign in with Google</p>
+                </button>
+                <p>Don't have an account? <a href="">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+</section>

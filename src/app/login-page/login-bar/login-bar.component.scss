@@ -1,0 +1,17 @@
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-checkbox input[type="checkbox"],
+.fa-icons .checked {
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .checked {
+  display: inline-block;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .unchecked {
+  display: none;
+}
