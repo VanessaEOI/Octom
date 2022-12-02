@@ -13,27 +13,29 @@
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                     placeholder="Email or phone number">
             </div>
-            <div class="password-box">
+            <div class="login-box">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password">
                 <fa-icon [icon]="faEye"></fa-icon>
             </div>
             <div class="forgot-password-box">
-                <label class="checkbox" for="checkbox"></label>
-                <input class="apple-switch" type="checkbox">
-                Remenber me
+                <div class="icon">
+                    <label class="checkbox" for="checkbox"></label>
+                    <input class="apple-switch" type="checkbox">
+                    Remenber me
+                </div>
                 <div class="forgot-password">
                     <a href="">Forgot password?</a>
                 </div>
             </div>
             <div class="signin-buttons">
                 <button type="submit" class="signin-box">Sign in</button>
-                <span class="signin-separation"></span>
-                <button type="submit" class="Google-signin-box">
+                <span></span>
+                <button type="submit" class="google-signin-box">
                     <img src=".\assets\images\logo-google.png" alt="Logo Google">
                     <p>Or sign in with Google</p>
                 </button>
-                <p>Don't have an account? <a href="">Sign up now</a></p>
+                <p>Don't have an account? <a href=""> Sign up now</a></p>
             </div>
         </form>
     </div>

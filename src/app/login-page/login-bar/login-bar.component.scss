@@ -8,12 +8,12 @@ input.apple-switch {
   position: relative;
   appearance: none;
   outline: none;
-  width: 50px;
-  height: 30px;
+  width: 35px;
+  height: 20px;
   background-color: #ffffff;
   border: 1px solid #d9dadc;
   border-radius: 50px;
-  box-shadow: inset -20px 0 0 0 #ffffff;
+  box-shadow: inset -15px 0 0 0 #ffffff;
   transition-duration: 200ms;
 }
 
@@ -22,16 +22,16 @@ input.apple-switch:after {
   position: absolute;
   top: 1px;
   left: 1px;
-  width: 26px;
-  height: 26px;
+  width: 16px;
+  height: 16px;
   background-color: transparent;
   border-radius: 50%;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 input.apple-switch:checked {
-  border-color: #4ed164;
-  box-shadow: inset 20px 0 0 0 #4ed164;
+  border-color: #007AFF;
+  box-shadow: inset 15px 0 0 0 #007AFF;
 }
 
 input.apple-switch:checked:after {
@@ -47,19 +47,124 @@ input.apple-switch:checked:after {
 
 .login-bar {
   width: 100%;
+  margin: 0;
+
   .header-logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+
+    img{
+      margin: 0.5em;
+    }
+
+    h1{
+      margin: 0 0.2em;
+      font-weight: 300;
+    }
   }
 
   .login-bloc {
-    .signin-buttons {
-      button {
-        img {
-          width: 1.5em;
+
+    h2{
+      margin-top: 2em;
+      font-weight: 500;
+    }
+
+    form{
+
+      .login-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 0.5em;
+
+        label{
+          margin: 0.3em 0 0.3em 0.7em;
+          font-size: 0.7em;
+        }
+        input{
+          margin: 0.2em 0;
+          border: none;
+          background-color: #E5E5E5;
+          padding: 0.6em;
+          border-radius: 0.3em;
+        }
+        fa-icon{
+          position: absolute;
+          top: 55%;
+          right: 5%;
+          font-size: 0.7em;
+          color: #4D4D4D;
         }
       }
+      
+      .forgot-password-box{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.7em;
+        margin: 0.5em 0;
+        align-items: center;
+        .icon{
+          display: flex;
+          align-items: center;
+          input{
+            margin-right : 0.5em;
+          }
+        }
+      }
+
+      .signin-buttons {
+        display: flex;
+        flex-direction: column;
+        .signin-box{
+          background-color: #007AFF;
+          color: #ffffff;
+          padding: 0.5em;
+          border-radius: 0.3em;
+          border: none;
+          height: 35px;
+          margin: 2rem 0;
+          font-size: 0.9em;
+        }
+        span{
+          border-bottom: 1px solid #E5E5E5;
+          width: 100%;
+          height: 1px;
+        }
+        .google-signin-box{
+          display: flex;
+          background-color: #333333;
+          color: #ffffff;
+          padding: 0.5em;
+          border-radius: 0.3em;
+          border: none;
+          height: 35px;
+          margin: 2rem 0;
+          justify-content: center;
+          font-size: 0.7em;
+          align-items: center ;
+
+          p{
+            margin: 0;
+          }
+        }
+        button {
+  
+          img {
+            width: 1.5em;
+          }
+          p{
+            font-size: 1em;
+          }
+        }
+        p{
+          font-size: 0.7em;
+          text-align: center;
+        }
+
+      } 
     }
+
+
   }
 }
