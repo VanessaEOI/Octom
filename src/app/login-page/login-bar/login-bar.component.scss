@@ -39,6 +39,7 @@ input.apple-switch:checked:after {
   box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
 }
 /**** Toggle button END ****/
+
 .main-login-form {
   display: flex;
   flex-direction: column;
@@ -82,19 +83,19 @@ input.apple-switch:checked:after {
           margin: 0.3em 0 0.3em 0.7em;
           font-size: 0.7em;
         }
+        fa-icon{
+          position: absolute;
+          top: 55%;
+          right: -4%;
+          font-size: 0.7em;
+          color: #4D4D4D;
+        }
         input{
           margin: 0.2em 0;
           border: none;
           background-color: #E5E5E5;
           padding: 0.6em;
           border-radius: 0.3em;
-        }
-        fa-icon{
-          position: absolute;
-          top: 55%;
-          right: 5%;
-          font-size: 0.7em;
-          color: #4D4D4D;
         }
       }
       

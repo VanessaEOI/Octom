@@ -21,6 +21,9 @@ import { EbooksComponent } from './landing-page/pages/ebooks/ebooks.component';
 import { FilesComponent } from './landing-page/pages/files/files.component';
 import { MessengerComponent } from './landing-page/pages/messenger/messenger.component';
 import { SettingsComponent } from './landing-page/pages/settings/settings.component';
+import { ComponentsComponent } from './components/components.component';
+import { ButtonComponent } from './components/button/button.component';
+import { InputComponent } from './components/input/input.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,9 @@ import { SettingsComponent } from './landing-page/pages/settings/settings.compon
     FilesComponent,
     MessengerComponent,
     SettingsComponent,
+    ComponentsComponent,
+    ButtonComponent,
+    InputComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
