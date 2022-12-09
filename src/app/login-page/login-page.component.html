@@ -1,4 +1,16 @@
 <main class="landing-page">
-    <app-img-left class="img-login-page"></app-img-left>
-    <app-login-bar class="login-bar"></app-login-bar>
+    <div class="img-login-page">
+        <img src="./assets/images/img_phare.png" alt="Image de présentation">
+    </div>
+    <section class="login-bar">
+        <div class="header-logo">
+            <div class="img-logo">
+                <img src="./assets/images/octom-main-logo.png" alt="Logo Octom" class="logo">
+            </div>
+            <h1>Octom</h1>
+        </div>
+        <div class="login-bloc">
+            <router-outlet></router-outlet>
+        </div>
+    </section>
 </main>

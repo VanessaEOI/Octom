@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImgLeftComponent } from './img-left.component';
+import { LoginBlocComponent } from './login-bloc.component';
 
-describe('ImgLeftComponent', () => {
-  let component: ImgLeftComponent;
-  let fixture: ComponentFixture<ImgLeftComponent>;
+describe('LoginBlocComponent', () => {
+  let component: LoginBlocComponent;
+  let fixture: ComponentFixture<LoginBlocComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ImgLeftComponent ]
+      declarations: [ LoginBlocComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ImgLeftComponent);
+    fixture = TestBed.createComponent(LoginBlocComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

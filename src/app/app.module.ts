@@ -4,8 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginPageComponent } from './login-page/login-page.component';
-import { ImgLeftComponent } from './login-page/img-left/img-left.component';
-import { LoginBarComponent } from './login-page/login-bar/login-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SidebarComponent } from './landing-page/sidebar/sidebar.component';
@@ -24,13 +22,12 @@ import { SettingsComponent } from './landing-page/pages/settings/settings.compon
 import { ComponentsComponent } from './components/components.component';
 import { ButtonComponent } from './components/button/button.component';
 import { InputComponent } from './components/input/input.component';
+import { LoginBlocComponent } from './login-bloc/login-bloc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
-    ImgLeftComponent,
-    LoginBarComponent,
     LandingPageComponent,
     SidebarComponent,
     HeaderComponent,
@@ -48,6 +45,7 @@ import { InputComponent } from './components/input/input.component';
     ComponentsComponent,
     ButtonComponent,
     InputComponent,
+    LoginBlocComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
