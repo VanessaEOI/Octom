@@ -1,31 +1,29 @@
 <h2>Nice to see you again</h2>
-            <form class="main-login-form">
-                <div class="login-box">
-                    <label for="login" class="form-label">Login</label>
-                    <app-input></app-input>
-                </div>
-                <div class="login-box">
-                    <label for="password" class="form-label">Password</label>
-                    <app-input></app-input>
-                    <fa-icon [icon]="faEye"></fa-icon>
-                </div>
-                <div class="forgot-password-box">
-                    <div class="icon">
-                        <label class="checkbox" for="checkbox"></label>
-                        <input class="apple-switch" type="checkbox">
-                        Remenber me
-                    </div>
-                    <div class="forgot-password">
-                        <a href="">Forgot password?</a>
-                    </div>
-                </div>
-                <div class="signin-buttons">
-                    <button type="submit" class="signin-box">Sign in</button>
-                    <span></span>
-                    <button type="submit" class="google-signin-box">
-                        <img src=".\assets\images\logo-google.png" alt="Logo Google">
-                        <p>Or sign in with Google</p>
-                    </button>
-                    <p>Don't have an account? <a href=""> Sign up now</a></p>
-                </div>
-            </form>
+<form class="main-login-form">
+    <div class="login-box">
+        <app-input type="email" field="email" placeholder="exemple@exemple.com" label="Username"></app-input>
+    </div>
+    <div class="login-box">
+        <app-input type="password?" field="password" placeholder="mot de passe" label="Password"></app-input>
+        <fa-icon [icon]="faEye"></fa-icon>
+    </div>
+    <div class="forgot-password-box">
+        <div class="icon">
+            <label class="checkbox" for="checkbox"></label>
+            <input class="apple-switch" type="checkbox">
+            Remenber me
+        </div>
+        <div class="forgot-password">
+            <a href="">Forgot password?</a>
+        </div>
+    </div>
+    <div class="signin-buttons">
+        <button type="submit" class="signin-box">Sign in</button>
+        <span></span>
+        <button type="submit" class="google-signin-box">
+            <img src=".\assets\images\logo-google.png" alt="Logo Google">
+            <p>Or sign in with Google</p>
+        </button>
+        <p>Don't have an account? <a href=""> Sign up now</a></p>
+    </div>
+</form>

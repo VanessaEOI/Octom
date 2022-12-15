@@ -6,7 +6,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./button.component.scss'],
 })
 export class ButtonComponent {
-  @Input() name: string = '';
   @Output() clickEmitter: EventEmitter<any | null> = new EventEmitter<
     any | null
   >();

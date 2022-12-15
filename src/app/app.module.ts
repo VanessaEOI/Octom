@@ -19,9 +19,8 @@ import { EbooksComponent } from './landing-page/pages/ebooks/ebooks.component';
 import { FilesComponent } from './landing-page/pages/files/files.component';
 import { MessengerComponent } from './landing-page/pages/messenger/messenger.component';
 import { SettingsComponent } from './landing-page/pages/settings/settings.component';
-import { ComponentsComponent } from './components/components.component';
-import { ButtonComponent } from './components/button/button.component';
-import { InputComponent } from './components/input/input.component';
+import { ButtonComponent } from './_components/button/button.component';
+import { InputComponent } from './_components/input/input.component';
 import { LoginBlocComponent } from './login-bloc/login-bloc.component';
 
 @NgModule({
@@ -42,7 +41,6 @@ import { LoginBlocComponent } from './login-bloc/login-bloc.component';
     FilesComponent,
     MessengerComponent,
     SettingsComponent,
-    ComponentsComponent,
     ButtonComponent,
     InputComponent,
     LoginBlocComponent,
