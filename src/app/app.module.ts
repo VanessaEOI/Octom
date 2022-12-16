@@ -22,6 +22,7 @@ import { SettingsComponent } from './landing-page/pages/settings/settings.compon
 import { ButtonComponent } from './_components/button/button.component';
 import { InputComponent } from './_components/input/input.component';
 import { LoginBlocComponent } from './login-bloc/login-bloc.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { LoginBlocComponent } from './login-bloc/login-bloc.component';
     ButtonComponent,
     InputComponent,
     LoginBlocComponent,
+    AuthComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
