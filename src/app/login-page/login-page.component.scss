@@ -43,3 +43,14 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .landing-page {
+    .img-login-page {
+      display: none;
+    }
+    .login-bar {
+      margin: 2em auto;
+    }
+  }
+}
