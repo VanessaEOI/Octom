@@ -23,6 +23,7 @@ import { ButtonComponent } from './_components/button/button.component';
 import { InputComponent } from './_components/input/input.component';
 import { LoginBlocComponent } from './login-bloc/login-bloc.component';
 import { AuthComponent } from './auth/auth.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { AuthComponent } from './auth/auth.component';
     InputComponent,
     LoginBlocComponent,
     AuthComponent,
+    ForgotPasswordComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
