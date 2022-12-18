@@ -9,21 +9,17 @@ const routes: Routes = [
   {
     path: '',
     component: LoginPageComponent,
-    children :[
+    children: [
       {
         path: '',
         component: LoginBlocComponent,
-      }
-    ]
+      },
+      {
+        path: 'auth',
+        component: AuthComponent,
+      },
+    ],
   },
-  {
-    path:'landing-page',
-    component:LandingPageComponent
-  },
-  {
-    path:'auth',
-    component:AuthComponent,
-  }
 ];
 
 @NgModule({
