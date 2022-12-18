@@ -1,24 +1,21 @@
 <h2>Authentification</h2>
 <form class="main-login-form">
     <div class="login-box">
-        <app-input type="email" field="email" placeholder="exemple@exemple.com" label="Username"></app-input>
+        <app-input type="email" field="email" placeholder="exemple@exemple.com"
+            label="Choose your username"></app-input>
     </div>
     <div class="login-box">
-        <app-input type="password?" field="password" placeholder="mot de passe" label="Password"></app-input>
+        <app-input type="password?" field="password" placeholder="password" label="Choose a password"></app-input>
         <fa-icon [icon]="faEye"></fa-icon>
     </div>
-    <div class="forgot-password-box">
-        <div class="icon">
-            <label class="checkbox" for="checkbox"></label>
-            <input class="apple-switch" type="checkbox">
-            Remenber me
-        </div>
-        <div class="forgot-password">
-            <a href="">Forgot password?</a>
-        </div>
+    <div class="login-box">
+        <app-input type="password?" field="password" placeholder="confirm password"
+            label="Confirm your password"></app-input>
+        <fa-icon [icon]="faEye"></fa-icon>
     </div>
+
     <div class="signin-buttons">
-        <button type="submit" class="signin-box">Sign in</button>
+        <button type="submit" class="signin-box">Create my account</button>
         <span></span>
         <button type="submit" class="google-signin-box">
             <img src=".\assets\images\logo-google.png" alt="Logo Google">
